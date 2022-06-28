@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// 색깔 바꾸고자 할 때 Flutter Theme Theming
+
 const COLOR_PRIMARY = Colors.deepOrangeAccent;
 const COLOR_ACCENT = Colors.orange;
 
@@ -33,8 +35,8 @@ ThemeData lightTheme = ThemeData(
 ThemeData darkTheme = ThemeData(
 
     brightness: Brightness.dark,
-    accentColor: Colors.white,
-  switchTheme: SwitchThemeData(
+    // accentColor: Colors.white,
+    switchTheme: SwitchThemeData(
     trackColor: MaterialStateProperty.all<Color>(Colors.grey),
     thumbColor: MaterialStateProperty.all<Color>(Colors.white),
   ),
